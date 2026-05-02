@@ -15,7 +15,7 @@ public class App
         Session s = sf.openSession();
         Transaction t = s.beginTransaction();
 
-        LibraryEntity l = new LibraryEntity();
+        vehicle l = new vehicle();
         l.setName("vehicle");
         l.setDescription("fourwheeler");
         l.setDate(new Date());
@@ -31,7 +31,7 @@ public class App
         Session s2 = sf.openSession();
         Transaction t2 = s2.beginTransaction();
 
-        LibraryEntity obj = s2.get(LibraryEntity.class, l.getId());
+        vehicle obj = s2.get(vehicle.class, l.getId());
         if(obj != null)
         {
             obj.setStatus("sold");   // updating status

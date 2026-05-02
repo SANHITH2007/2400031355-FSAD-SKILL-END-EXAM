@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-public class LibraryEntity{
+public class vehicle{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

@@ -12,7 +12,7 @@
     <property name="connection.password">root</property>    
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>   
     
-    <mapping class="com.klef.fsad.exam.LibraryEntity"/>   
+    <mapping class="com.klef.fsad.exam.vehicle"/>   
 
         
 </session-factory>  
